@@ -1,0 +1,20 @@
+:root {
+  font-size: 16px;
+}
+
+.required-label::after {
+  content: "*";
+  color: red;
+  margin-left: 4px;
+}
+
+.container-wrapper .header .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+#insert_btn {
+  border: 1px solid lightgrey;
+}
